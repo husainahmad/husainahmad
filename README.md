@@ -56,7 +56,7 @@ Spring Boot services behind a single API gateway.
 - **Streaming AI ordering** over Server-Sent Events, fully decoupled from the backend via HTTP clients.
 
 ### AI Medical Chatbot — Closed-Domain Assistant
-A grounded medical-information chatbot for PlacidWay's ITC Immunity Therapy Center.
+A closed-domain medical information chatbot grounded on a fixed set of approved pages.
 
 - **Vaadin 25 + Spring Boot 4 + Spring AI** with `@Push` streaming replies.
 - Closed-domain grounding on 7 approved pages — refuses to invent prices, clinics, doctors, or medical facts.
