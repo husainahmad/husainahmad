@@ -2,7 +2,7 @@
 
 **Senior Software Engineer | Engineering Manager | AI & Automation Engineer**
 
-Software engineer and architect with **22+ years** building enterprise applications, backend
+Software engineer and architect building enterprise applications, backend
 systems, and software platforms. My core expertise is **Java, Golang, Spring Boot, microservices,
 and system integration** — from mobile apps and enterprise platforms to restaurant ordering and
 payment systems. I have led engineering teams and owned architecture across product, backend, and
