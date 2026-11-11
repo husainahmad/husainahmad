@@ -1,76 +1,116 @@
 # Ahmad Husain
 
-**Backend & Full-Stack Engineer** — Java, Spring Boot, Vaadin, and Point-of-Sale systems.
+**Senior Software Engineer | Engineering Manager | AI & Automation Engineer**
 
-I design and build production-grade POS and ordering platforms: microservices backends,
-server-side Java UIs, AI-assisted ordering, and native clients for iPad, Android, and desktop.
+Software engineer and architect with **22+ years** building enterprise applications, backend
+systems, and software platforms. My core expertise is **Java, Golang, Spring Boot, microservices,
+and system integration** — from mobile apps and enterprise platforms to restaurant ordering and
+payment systems. I have led engineering teams and owned architecture across product, backend, and
+DevOps. More recently I have been building **AI-based applications** with LLMs, Spring AI, RAG,
+and AI agents.
+
+Based in Indonesia.
 
 ---
 
 ## Tech Stack
 
-![Java](https://img.shields.io/badge/Java-21-ED8B00?logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x_|_4.x-6DB33F?logo=springboot&logoColor=white)
-![Spring Cloud](https://img.shields.io/badge/Spring_Cloud_Gateway-6DB33F?logo=spring&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)
 ![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?logo=spring&logoColor=white)
-![Vaadin](https://img.shields.io/badge/Vaadin-24_|_25-00B4F0?logo=vaadin&logoColor=white)
-![MyBatis](https://img.shields.io/badge/MyBatis-DC382D?logo=mybatis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![Flyway](https://img.shields.io/badge/Flyway-CC0200?logo=flyway&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white)
-![C++](https://img.shields.io/badge/C++/Qt-00599C?logo=cplusplus&logoColor=white)
+![Vaadin](https://img.shields.io/badge/Vaadin-00B4F0?logo=vaadin&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white)
 
-**Backend:** Java 21, Spring Boot, Spring WebFlux, Spring Security, JWT, MyBatis, MySQL, Flyway, Apache Commons DBCP2, OpenAPI/Swagger, GraalVM native
-**Frontend:** Vaadin Flow (Lumo themes), React/Vite dev bundle, server-side Java UI
-**AI:** Spring AI, OpenAI-compatible LLMs, SSE streaming, RAG-style grounding
-**Architecture:** Microservices, API Gateway, Hexagonal (Ports & Adapters), DDD-lite domain modeling
-**Clients:** Swift/iOS (iPad), Kotlin/Android, C++/Qt desktop
+**Languages:** Java (EE/SE), Golang, Kotlin, PHP, JavaScript, C#
+**Frameworks:** Spring Boot, Spring MVC, Spring Security, Spring AI, Hibernate, MyBatis, JPA, Laravel
+**AI:** LLM integration, RAG, AI agents, tool calling, Ollama
+**Cloud & Infra:** AWS, GCP, Docker, Kubernetes, Jenkins, CI/CD
+**Databases:** PostgreSQL, MySQL, Oracle, SQL Server, MongoDB
+**Messaging & Caching:** RabbitMQ, Redis
+**Testing & Monitoring:** Mockito, JMeter, SonarQube, Datadog, TDD
+
+---
+
+## Experience
+
+**Senior Software Architect** — Hyperscal, PT SOD Indonesia · *Apr 2025 – Present*
+Architecting cloud-native backend services on AWS; designing highly available REST APIs with
+Golang, PostgreSQL, and Redis; establishing engineering standards and architecture guidelines.
+
+**Senior Java Developer** — Aleph Labs, Indonesia · *May 2024 – Apr 2025*
+Secure Spring Boot backend services for enterprise digital platforms; resilience with Redis and
+Resilience4j; introduced TDD and SonarQube quality gates.
+
+**Engineering Manager** — TabSquare PTE Ltd (Singapore, Remote) · *Aug 2023 – Mar 2024*
+Led delivery for digital restaurant ordering and hospitality platforms; coordinated backend,
+product, and QA; directed migration from legacy services to Kubernetes microservices.
+
+**Principal Engineer / Platform Manager / Lead Backend Engineer** — TabSquare PTE Ltd · *2017 – 2023*
+Designed backend architecture for restaurant ordering, payment, loyalty, and operational
+platforms; led monolith-to-microservices migration on Kubernetes; built scalable REST APIs for
+high transaction volumes; improved observability, deployment automation, and reliability.
+
+**Earlier career** — Mobile Developer Team Lead (Seekmi Global Services), Lead Engineer
+(Samsung R&D Indonesia), Technical Lead (Imede Indonesia), Senior Developer & Mobile Engineer
+roles (2003–2010) — backend systems, mobile platforms (Android, BlackBerry), and enterprise apps.
 
 ---
 
 ## Featured Projects
 
-### POS Harmoni — Restaurant Point-of-Sale Platform
-A complete, multi-service POS ecosystem for restaurant operations, built as independent
-Spring Boot services behind a single API gateway.
+### POS Harmoni — POS & AI Ordering Assistant
+An independent POS platform for restaurant operations: order management, menu management,
+payments, promotions, and inventory — with an AI ordering assistant built on Spring AI and LLMs.
 
-| Service | Responsibility | Stack |
-| --- | --- | --- |
-| `gateway` | Single entry point, routing, CORS, JWT resource server | Spring Cloud Gateway, Spring Security |
-| `authentication` | Users, roles, JWT issuance | Spring Boot, MyBatis, MySQL |
-| `order` | Orders, configuration, reporting | Spring Boot, MyBatis, Flyway |
-| `menu` | Menu, categories, products, SKUs, pricing tiers | Spring Boot, MyBatis |
-| `customer` | Customers, sessions, messages — **Hexagonal Architecture** | Spring Boot, MyBatis, Flyway |
-| `dashboard` | Admin UI for menu & configuration | Vaadin 24, Spring WebFlux |
-| `ai-order` | AI chat ordering frontend | Vaadin 25, Spring WebFlux, SSE |
-| `ipad-order` | Native iPad ordering client | Swift / Xcode |
-| `android-order` | Native Android ordering client | Kotlin |
-| `desktop-order` | Desktop POS client | C++ / Qt |
+- Integrated LLMs with backend services using **Spring AI**.
+- Implemented **tool calling** so the assistant retrieves real product and SKU data through APIs
+  instead of inventing it.
+- Explored **RAG** to give the assistant relevant business context.
+- Connected ordering, menu, and promotion services through REST APIs.
+- Designed backend workflows for order processing, product customization, pricing, and payments.
 
-**Highlights**
-- Clean **Hexagonal Architecture** in the customer service: pure domain, use-case ports, and MyBatis adapters with no framework leakage into the domain.
-- **Soft-delete** strategy for customer conversations to preserve business history and FK integrity.
-- **Flyway**-managed schema migrations and centralized DB credentials.
-- **Streaming AI ordering** over Server-Sent Events, fully decoupled from the backend via HTTP clients.
+The platform is split into independent Spring Boot services behind a single API gateway, with
+Vaadin admin/ordering UIs and native iPad, Android, and desktop clients.
+
+| Service | Responsibility |
+| --- | --- |
+| `gateway` | Single entry point, routing, CORS, JWT resource server |
+| `authentication` | Users, roles, JWT issuance |
+| `order` | Orders, configuration, reporting |
+| `menu` | Menu, categories, products, SKUs, pricing tiers |
+| `customer` | Customers, sessions, messages — Hexagonal Architecture |
+| `dashboard` | Admin UI (Vaadin) |
+| `ai-order` | AI chat ordering frontend (Vaadin, SSE streaming) |
+| `ipad-order` / `android-order` / `desktop-order` | Native clients (Swift, Kotlin, C++/Qt) |
+
+**Technology:** Java, Spring Boot, Spring AI, Ollama, LLMs, MyBatis, MySQL, REST APIs, Microservices.
 
 ### AI Medical Chatbot — Closed-Domain Assistant
-A closed-domain medical information chatbot grounded on a fixed set of approved pages.
+A grounded medical-information chatbot built with **Vaadin, Spring Boot, and Spring AI**.
 
-- **Vaadin 25 + Spring Boot 4 + Spring AI** with `@Push` streaming replies.
-- Closed-domain grounding on 7 approved pages — refuses to invent prices, clinics, doctors, or medical facts.
-- Per-session conversation memory (last 20 messages), Markdown rendering, and honest "I don't know" fallbacks.
-- Replies in the user's language, including refusals.
+- Closed-domain grounding on a fixed set of approved pages — refuses to invent prices, clinics,
+  doctors, or medical facts.
+- Streaming replies with `@Push`, per-session conversation memory, and Markdown rendering.
+- Replies in the user's language, including honest "I don't know" fallbacks.
 
 ---
 
 ## What I Care About
 
-- **Clear boundaries** — domain code that knows nothing about Spring, MyBatis, or JSON.
-- **Honest systems** — services that fail loudly and document their limitations instead of hiding them.
-- **Real clients** — the same backend serving web, iPad, Android, and desktop without duplication.
-- **Maintainable UI** — server-side Vaadin where it removes an entire frontend stack.
+- **Practical architecture** — systems that fit how the business actually operates.
+- **Clear boundaries** — domain code that knows nothing about frameworks or transport.
+- **Reliability at scale** — observability, automation, and predictable deployments.
+- **Honest systems** — services that fail loudly and document their limitations.
 
 ---
 
@@ -84,4 +124,5 @@ A closed-domain medical information chatbot grounded on a fixed set of approved 
 ## Contact
 
 - Email: [husainahmad@gmail.com](mailto:husainahmad@gmail.com)
+- LinkedIn: [ahmad-husain-5251248](https://www.linkedin.com/in/ahmad-husain-5251248)
 - GitHub: [@husainahmad](https://github.com/husainahmad)
