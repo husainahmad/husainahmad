@@ -41,31 +41,6 @@ Based in Indonesia.
 
 ---
 
-## Experience
-
-**Senior Software Architect** — Hyperscal, PT SOD Indonesia · *Apr 2025 – Present*
-Architecting cloud-native backend services on AWS; designing highly available REST APIs with
-Golang, PostgreSQL, and Redis; establishing engineering standards and architecture guidelines.
-
-**Senior Java Developer** — Aleph Labs, Indonesia · *May 2024 – Apr 2025*
-Secure Spring Boot backend services for enterprise digital platforms; resilience with Redis and
-Resilience4j; introduced TDD and SonarQube quality gates.
-
-**Engineering Manager** — TabSquare PTE Ltd (Singapore, Remote) · *Aug 2023 – Mar 2024*
-Led delivery for digital restaurant ordering and hospitality platforms; coordinated backend,
-product, and QA; directed migration from legacy services to Kubernetes microservices.
-
-**Principal Engineer / Platform Manager / Lead Backend Engineer** — TabSquare PTE Ltd · *2017 – 2023*
-Designed backend architecture for restaurant ordering, payment, loyalty, and operational
-platforms; led monolith-to-microservices migration on Kubernetes; built scalable REST APIs for
-high transaction volumes; improved observability, deployment automation, and reliability.
-
-**Earlier career** — Mobile Developer Team Lead (Seekmi Global Services), Lead Engineer
-(Samsung R&D Indonesia), Technical Lead (Imede Indonesia), Senior Developer & Mobile Engineer
-roles (2003–2010) — backend systems, mobile platforms (Android, BlackBerry), and enterprise apps.
-
----
-
 ## Featured Projects
 
 ### POS Harmoni — POS & AI Ordering Assistant
