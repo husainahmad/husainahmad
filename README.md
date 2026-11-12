@@ -11,6 +11,9 @@ and AI agents.
 
 Based in Indonesia.
 
+**Currently:** building an AI ordering assistant on Spring AI, connecting LLMs to real product
+and business data through backend APIs.
+
 ---
 
 ## Tech Stack
@@ -31,19 +34,19 @@ Based in Indonesia.
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white)
 
-**Languages:** Java (EE/SE), Golang, Kotlin, PHP, JavaScript, C#
-**Frameworks:** Spring Boot, Spring MVC, Spring Security, Spring AI, Hibernate, MyBatis, JPA, Laravel
-**AI:** LLM integration, RAG, AI agents, tool calling, Ollama
-**Cloud & Infra:** AWS, GCP, Docker, Kubernetes, Jenkins, CI/CD
-**Databases:** PostgreSQL, MySQL, Oracle, SQL Server, MongoDB
-**Messaging & Caching:** RabbitMQ, Redis
-**Testing & Monitoring:** Mockito, JMeter, SonarQube, Datadog, TDD
+- **Languages:** Java (EE/SE), Golang, Kotlin, PHP, JavaScript, C#
+- **Frameworks:** Spring Boot, Spring MVC, Spring Security, Spring AI, Hibernate, MyBatis, JPA, Laravel
+- **AI:** LLM integration, RAG, AI agents, tool calling, Ollama
+- **Cloud & Infra:** AWS, GCP, Docker, Kubernetes, Jenkins, CI/CD
+- **Databases:** PostgreSQL, MySQL, Oracle, SQL Server, MongoDB
+- **Messaging & Caching:** RabbitMQ, Redis
+- **Testing & Monitoring:** Mockito, JMeter, SonarQube, Datadog, TDD
 
 ---
 
 ## Featured Projects
 
-### POS Harmoni — POS & AI Ordering Assistant
+### [POS Harmoni](https://github.com/husainahmad/ai-order) — POS & AI Ordering Assistant
 An independent POS platform for restaurant operations: order management, menu management,
 payments, promotions, and inventory — with an AI ordering assistant built on Spring AI and LLMs.
 
@@ -59,18 +62,18 @@ Vaadin admin/ordering UIs and native iPad, Android, and desktop clients.
 
 | Service | Responsibility |
 | --- | --- |
-| `gateway` | Single entry point, routing, CORS, JWT resource server |
-| `authentication` | Users, roles, JWT issuance |
-| `order` | Orders, configuration, reporting |
-| `menu` | Menu, categories, products, SKUs, pricing tiers |
-| `customer` | Customers, sessions, messages — Hexagonal Architecture |
-| `dashboard` | Admin UI (Vaadin) |
-| `ai-order` | AI chat ordering frontend (Vaadin, SSE streaming) |
-| `ipad-order` / `android-order` / `desktop-order` | Native clients (Swift, Kotlin, C++/Qt) |
+| [`gateway`](https://github.com/husainahmad/gateway) | Single entry point, routing, CORS, JWT resource server |
+| [`authentication`](https://github.com/husainahmad/authentication) | Users, roles, JWT issuance |
+| [`order`](https://github.com/husainahmad/order) | Orders, configuration, reporting |
+| [`menu`](https://github.com/husainahmad/menu) | Menu, categories, products, SKUs, pricing tiers |
+| [`customer`](https://github.com/husainahmad/customer) | Customers, sessions, messages — Hexagonal Architecture |
+| [`dashboard`](https://github.com/husainahmad/dashboard) | Admin UI (Vaadin) |
+| [`ai-order`](https://github.com/husainahmad/ai-order) | AI chat ordering frontend (Vaadin, SSE streaming) |
+| [`ipad-order`](https://github.com/husainahmad/ipad-order) / [`android-order`](https://github.com/husainahmad/android-order) / [`desktop-order`](https://github.com/husainahmad/desktop-order) | Native clients (Swift, Kotlin, C++/Qt) |
 
 **Technology:** Java, Spring Boot, Spring AI, Ollama, LLMs, MyBatis, MySQL, REST APIs, Microservices.
 
-### AI Medical Chatbot — Closed-Domain Assistant
+### [AI Medical Chatbot](https://github.com/husainahmad/ai-bot-medical) — Closed-Domain Assistant
 A grounded medical-information chatbot built with **Vaadin, Spring Boot, and Spring AI**.
 
 - Closed-domain grounding on a fixed set of approved pages — refuses to invent prices, clinics,
@@ -97,6 +100,8 @@ A grounded medical-information chatbot built with **Vaadin, Spring Boot, and Spr
 ---
 
 ## Contact
+
+Open to senior engineering, architecture, and consulting opportunities.
 
 - Email: [husainahmad@gmail.com](mailto:husainahmad@gmail.com)
 - LinkedIn: [ahmad-husain-5251248](https://www.linkedin.com/in/ahmad-husain-5251248)
